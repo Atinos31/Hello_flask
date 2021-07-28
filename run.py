@@ -6,7 +6,7 @@ if os.path.exists("env.py"):
 
 
 app = Flask(__name__)
-app.secret_key = os.environ.get("SECRET_KEY", b"\xcf@\xc08'\xc3\x98\xbb\xe3i\x0c\x80\x8a\xea\xe6D")
+#app.secret_key = os.environ.get("SECRET_KEY", b"\xcf@\xc08'\xc3\x98\xbb\xe3i\x0c\x80\x8a\xea\xe6D") "secret key must be in the env.py
 
 
 @app.route("/")
